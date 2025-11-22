@@ -61,6 +61,15 @@ uv pip install -r requirements.txt
 
 ## 💻 使用方法
 
+### 使用代理
+首先打开Clash，查看常规里的端口，比如我的就是7890。
+在配置文件的tunnel填上下面信息：
+url: http://127.0.0.1:7890。然后在clash里面选全局，多试试几个节点，实在不行就选direct直连，如果有问题再重启软件！！！
+<img width="1307" height="819" alt="image" src="https://github.com/user-attachments/assets/28a462f7-77ec-40fa-99f7-958db339fd37" />
+<img width="876" height="597" alt="image" src="https://github.com/user-attachments/assets/76b38ad3-d760-4739-86a6-de55a41758b6" />
+
+
+
 ### 使用查询模块
 
 ```python
